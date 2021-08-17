@@ -1,0 +1,8 @@
+[submodule "farhan-blog/public"]
+	path = farhan-blog/public
+	url = https://github.com/fb0801/fb0801.github.io.git
+	branch = main
+[submodule "farhan-blog/docs"]
+	path = farhan-blog/docs
+	url = https://github.com/fb0801/fb0801.github.io.git
+	branch = main

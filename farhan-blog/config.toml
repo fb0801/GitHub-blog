@@ -1,0 +1,48 @@
+baseURL = "https://fb0801.github.io/"
+languageCode = "en-us"
+title = "Farhan's Blog"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.png"
+  description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Farhan Bhatti"
+  thumbnail = "/images/author.png"
+  description = "Creator of this blog."
+
+[params.index]
+  #picture = "/images/author.png"
+  title = "Farhan Bhatti"
+  subtitle = "I'm an IT graduate"
+  mdtext = '''
+Currently trying to get this blog running, still don't know what the blog will be about!
+'''
+  alertbar = false
+
+[params.social]
+  github = "fb0801"
+  linkedin = "fbhatti0801"
+  #xing = "<username>"
+  #medium = "<username>"
+  twitter = "FarhanB0801"
+  #instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
